@@ -8,8 +8,8 @@ main.tf - contains the base code for driving the creation of the environment.  T
 
 datasource.tf - contains the gathering of the AMI details for the EC2 instances. 
 
-userdata.tpl - contains bash script to configure the Unbuntu ec2 for docker.  This is a work in progress.  Bash script didn't completely install the docker.  I'll revist this at a later time. 
+userdata.tpl - contains bash script to configure the Unbuntu ec2 for docker.  The Bash script installs the required software for docker. 
 
-output.tf - contains the output of the arn and name information for the S3 buckets, and web domain name for the bucket so configured.  Arn, Name, Private IPs and Public IPs are presented. 
+output.tf - contains the output of the arn and name information for the S3 buckets, and web domain name for the bucket where configured.  For EC2 instances the Arn, Name, Private IPs and Public IPs are presented. 
 
 
