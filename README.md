@@ -31,7 +31,7 @@ datasource.tf - Contains the gathering of the AMI details for the EC2 instances.
 userdata.tpl - Contains bash script to configure the Unbuntu ec2 for docker.  
     The Bash script installs the required software for docker. 
 
-amz_userdata.tpl - Contains a bash script to install a webservice that returns the hostname of the Linux system. 
+userdata_amz.tpl - Contains a bash script to install a webservice that returns the hostname of the Linux system. 
 
 bat_timestamp.txt - Text file holding a timestamp variable used to be referenced from the tf files. 
     THis allows Terraform to pass a variable string within the code without evaluating it. 
